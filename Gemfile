@@ -29,6 +29,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #rescuegroups gem
 gem 'rescuegroups', '~> 0.0.1'
 
+#curb gem required for spring
+gem 'curb'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
