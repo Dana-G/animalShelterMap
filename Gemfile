@@ -32,6 +32,8 @@ gem 'rescuegroups', '~> 0.0.1'
 #curb gem required for spring
 gem 'curb'
 
+gem 'nokogiri', '~> 1.6.6.2'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
@@ -47,5 +49,7 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem 'better_errors', '~> 2.1.1'
 end
 
