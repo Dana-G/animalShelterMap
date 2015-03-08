@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pet Shelter Mapping</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+	
+</head>
+<body>
+
+<h1>
+Find a nearby animal shelter or rescue
+</h1>
+
+<form id="frm1">
+Zip code: <input type="text" name="zipcode">
+Geographic radius:
+<select id="radiusSelect">
+	<option>1 mi</option>
+	<option>2 mi</option>
+	<option>3 mi</option>
+	<option>4 mi</option>
+	<option>5 mi</option>
+	<option selected="selected">10 mi</option>
+</select>
+<br>
+Select animal:
+<select id="animalSelect">
+	<option>any</option>
+	<option>cat</option>
+	<option>dog</option>
+	<option>small and furry</option>
+	<option>rabbit</option>
+	<option>horse</option>
+	<option>bird</option>
+	<option>pig</option>
+	<option>barnyard</option>
+	<option>scales, fin, and others</option>
+</select>
+<br><br>
+
+<input type="button" id="btnSubmit" onclick="SubmitClick()" value="Submit">
+</form>
+
+<p id="demo"></p>
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script language="javascript" src="main.js"></script>
+ 
+</body>
+</html>
